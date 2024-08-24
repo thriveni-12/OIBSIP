@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+    background-color: #333;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid #ffd700;
+}
+
+.profile-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffd700;
+}
+
+.profile-text p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.resume-button {
+    padding: 10px 20px;
+    color: #1a1a1a;
+    background-color: #ffd700;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #e0b700;
+}
+
+/* About Me Section */
+.about-me {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.about-me p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px 0;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+.skill-item p {
+    color: #cccccc;
+}
+
+/* Experience Section */
+.experience {
+    padding: 50px 0;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.experience h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.experience-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.experience-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+.experience-item p {
+    color: #cccccc;
+}
+
+/* Education Section */
+.education {
+    padding: 50px 0;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.education h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.education-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.education-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+.education-item p {
+    color: #cccccc;
+}
+
+/* Portfolio Section */
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 0;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 300px; /* Set a max width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+.portfolio-item p {
+    color: #cccccc;
+}
+
+
+/* Blog Section */
+.blog {
+    padding: 50px 0;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.blog-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.blog-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+.blog-item p {
+    color: #cccccc;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.testimonial-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial-item p {
+    color: #cccccc;
+    font-style: italic;
+}
+
+.testimonial-item strong {
+    display: block;
+    margin-top: 10px;
+    color: #ffd700;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #2b2b2b;
+    color: #cccccc;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
