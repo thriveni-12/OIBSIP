@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <h1>Welcome to TechSavvy Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Innovating Your Digital Experience</h2>
+            <p>Empowering businesses with cutting-edge technology solutions and exceptional service.</p>
+            <a href="#services" class="btn-primary">Explore Our Services</a>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section id="about" class="container about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>TechSavvy Solutions is dedicated to delivering high-quality technology services to enhance your business operations. Our team of experts provides tailored solutions to meet your specific needs and drive success.</p>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="container services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="service1.jpg" alt="Custom Software Development">
+                <h3>Custom Software Development</h3>
+                <p>Creating bespoke software solutions to streamline your business operations and enhance efficiency.</p>
+            </div>
+            <div class="service-item">
+                <img src="service2.jpg" alt="IT Consulting">
+                <h3>IT Consulting</h3>
+                <p>Providing expert advice to help you make informed technology decisions and optimize your IT strategy.</p>
+            </div>
+            <div class="service-item">
+                <img src="service3.jpg" alt="Cybersecurity Solutions">
+                <h3>Cybersecurity Solutions</h3>
+                <p>Implementing robust security measures to protect your data and systems from cyber threats.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"TechSavvy Solutions transformed our business with their innovative software and expert IT consulting. Highly recommended!"</p>
+            <p><strong>VATTIKUTI THRIVENI, CEO of InnovateCorp</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Their cybersecurity solutions gave us peace of mind knowing our data is secure. Excellent service and support."</p>
+            <p><strong>VATTIKUTI GOWTHAM, CTO of SecureTech</strong></p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="container contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries or more information, please fill out the form below or reach out to us directly.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Newsletter Signup Section -->
+    <section id="newsletter" class="container newsletter">
+        <h2>Stay Updated</h2>
+        <p>Sign up for our newsletter to receive the latest updates and offers.</p>
+        <form action="subscribe_newsletter.php" method="POST">
+            <label for="newsletter-email">Email:</label>
+            <input type="email" id="newsletter-email" name="email" required>
+            <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 TechSavvy Solutions. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
